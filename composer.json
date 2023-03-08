@@ -1,0 +1,19 @@
+{
+  "name": "diaeai/laravel-python3",
+  "description": "Run python3 scripts inside Laravel app",
+  "autoload": {
+    "psr-4": {
+      "diaeai\\LaravelPython3\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "diaeai\\LaravelPython3\\ServiceProvider"
+      ],
+      "aliases": {
+        "Python3": "diaeai\\LaravelPython3\\Facades\\Python3"
+      }
+    }
+  }
+}
