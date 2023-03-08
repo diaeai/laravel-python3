@@ -8,7 +8,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     public function register()
     {
-        $this->mergeConfigFrom($this->packagePath() . '/config/laravel-python3.php', 'laravel-python3');
+        $this->mergeConfigFrom($this->packagePath() . '/config/python3.php', 'python3');
         $this->app->singleton('python3', function () { return new Python3();});
     }
 
