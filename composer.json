@@ -1,6 +1,7 @@
 {
   "name": "diaeai/laravel-python3",
   "description": "Run python3 scripts inside Laravel app",
+  "keywords": ["python3", "python", "laravel-python"],
   "autoload": {
     "psr-4": {
       "diaeai\\LaravelPython3\\": "src/"
